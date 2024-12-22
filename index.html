@@ -6,7 +6,7 @@
     <title>Verses for Cave Men</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex items-center justify-center h-screen bg-gray-50">
+<body class="flex items-center justify-center h-screen bg-zinc-900">
 
     <!-- Timer Selection Menu -->
     <div id="timer-menu" class="border border-gray-200 rounded-lg shadow-lg w-96 bg-white">
@@ -25,19 +25,19 @@
     </div>
 
     <!-- Main Game Screen (hidden initially) -->
-    <div id="game-screen" class="border border-gray-200 rounded-lg shadow-lg w-96 bg-white hidden">
+    <div id="game-screen" class="border border-gray-600 shadow-lg w-96 bg-stone-900">
         <!-- Top section -->
         <div class="grid grid-cols-3 border-b border-gray-200 p-4">
             <div class="flex flex-col justify-between">
-                <span id="reset-score" class="text-gray-500 font-semibold hover:text-black transition duration-300 cursor-pointer">Reset Score</span>
-                <span id="score" class="self-start text-lg font-bold text-gray-800">Score: 0</span>
+                <span id="reset-score" class="text-gray-400 font-semibold hover:text-zinc-600 transition duration-300 cursor-pointer">Reset Score</span>
+                <span id="score" class="self-start text-lg font-bold text-white">Score: 0</span>
             </div>
             <div class="flex flex-col h-20 items-center justify-between">
                 <span id="word1" class="text-lg font-bold text-yellow-500 text-center break-words">Word1</span>
                 <span id="word3" class="text-lg font-bold text-green-500 text-center break-words">Word2</span>
             </div>
             <div class="flex justify-end">
-                <span id="timer-display" class="text-lg font-bold text-gray-800">Timer: 0</span>
+                <span id="timer-display" class="text-lg font-bold text-white">Timer: 0</span>
             </div>
         </div>
 
